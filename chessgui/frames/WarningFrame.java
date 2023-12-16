@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.frames;
 import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;

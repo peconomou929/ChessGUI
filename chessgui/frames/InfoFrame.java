@@ -1,9 +1,7 @@
-package chessgui;
+package chessgui.frames;
 /*
 A frame holding help information for the user.
 */
-
-import chessgui.frames.InfoTab;
 
 import java.awt.Color;
 import java.awt.GridBagLayout;
@@ -17,6 +15,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+
+import chessgui.ChessGame;
 
 
 public class InfoFrame extends JFrame implements MouseListener

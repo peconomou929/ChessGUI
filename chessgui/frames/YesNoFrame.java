@@ -1,4 +1,6 @@
-package chessgui;
+package chessgui.frames;
+import chessgui.ChessGame;
+
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -6,6 +8,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
+
 
 public class YesNoFrame extends JFrame implements ActionListener 
 {
@@ -64,7 +67,7 @@ public class YesNoFrame extends JFrame implements ActionListener
             {
                 game.dispose();
                 this.dispose();
-                new Welcome();
+                new WelcomeFrame();
             }
             else if(frameType==THREEFOLD_REPITITION)
             {

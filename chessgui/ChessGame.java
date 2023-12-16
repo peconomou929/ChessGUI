@@ -24,6 +24,9 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.table.DefaultTableModel;
 
+import chessgui.frames.InfoFrame;
+import chessgui.frames.YesNoFrame;
+
 public class ChessGame extends JFrame implements ActionListener, MouseListener {
     
     //useful integers to hold onto

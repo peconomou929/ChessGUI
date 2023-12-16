@@ -1,10 +1,12 @@
-package chessgui;
+package chessgui.frames;
+import chessgui.ChessGame;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class Welcome extends JFrame implements ActionListener
+public class WelcomeFrame extends JFrame implements ActionListener
 {
     public final static Color BACKGROUND = new Color(240,240,240);
     private int minutes;
@@ -29,7 +31,7 @@ public class Welcome extends JFrame implements ActionListener
     private JButton goButton, infoButton;
     private JLabel imageLabel;
     
-    public Welcome()
+    public WelcomeFrame()
     {
 
         //format frame
@@ -230,10 +232,5 @@ public class Welcome extends JFrame implements ActionListener
                 new ChessGame(whiteNameField.getText(), blackNameField.getText(), false, 1,false);
             }
         }
-    }
-    
-    public static void main(String[] args)
-    {
-        new Welcome();
     }
 }
