@@ -9,11 +9,11 @@ chessgui/ChessSquare.java
 chessgui/EnPassant.java
 chessgui/EnPassantMove.java
 chessgui/InfoFrame.java
-chessgui/InfoTab.java
+chessgui/frames/InfoTab.java
 chessgui/MessageFrame.java
 chessgui/Move.java
 chessgui/NormalMove.java
-chessgui/PromotionFrame.java
+chessgui/frames/PromotionFrame.java
 chessgui/PromotionMove.java
 chessgui/Selection.java
 chessgui/SimplePiece.java

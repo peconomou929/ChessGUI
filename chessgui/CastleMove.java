@@ -16,7 +16,7 @@ public class CastleMove extends Move
     {
         super(pieceMoving, targetSquare, CASTLE_MOVE);
         this.king=pieceMoving;
-        this.kingOrigin=origin;
+        this.kingOrigin=this.origin;
         this.kingDestination=targetSquare;
         this.kingSide = (kingDestination.getFile()==6);
         capture=false;

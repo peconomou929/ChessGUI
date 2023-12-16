@@ -12,17 +12,17 @@ public class Move
     public static final int PROMOTION_MOVE=2;
     public static final int EN_PASSANT_MOVE=3;
     
-    protected ChessPiece pieceMoving;           //what is the piece in the game that's moving
-    protected int pieceType;                    //what type of piece is it
-    protected boolean firstTouch;               //is it moving for the first time
-    protected ChessSquare origin;               //where is it coming from
-    protected ChessSquare destination;          //where is it going
-    protected boolean capture;                  //is this move a capture
-    protected int moveType;                     //what kind of move is it
-    protected ChessGame game;                   //what game are we in
-    protected String messageText;               //what message should be displayed after the move   
-    protected String moveString;                //what is the algebraic notation for this move
-    protected int checkResult;                  //does this move result in check, checkmate, stalemate etc.
+    public ChessPiece pieceMoving;           //what is the piece in the game that's moving
+    public int pieceType;                    //what type of piece is it
+    public boolean firstTouch;               //is it moving for the first time
+    public ChessSquare origin;               //where is it coming from
+    public ChessSquare destination;          //where is it going
+    public boolean capture;                  //is this move a capture
+    public int moveType;                     //what kind of move is it
+    public ChessGame game;                   //what game are we in
+    public String messageText;               //what message should be displayed after the move   
+    public String moveString;                //what is the algebraic notation for this move
+    public int checkResult;                  //does this move result in check, checkmate, stalemate etc.
     
     public Move(ChessPiece pieceMoving, ChessSquare destination, int moveType)
     {
@@ -37,37 +37,6 @@ public class Move
         this.messageText= "";
         this.moveString = "";    
         this.checkResult = ChessGame.NO_CHECK;
-    }
-
-    public int getPieceType() {
-        return pieceType;
-    }
-    public boolean isFirstTouch() {
-        return firstTouch;
-    }
-    public ChessPiece getPieceMoving() {
-        return pieceMoving;
-    }
-    public ChessSquare getOrigin() {
-        return origin;
-    }
-    public ChessSquare getDestination() {
-        return destination;
-    }
-    public boolean isCapture() {
-        return capture;
-    }
-    public int getMoveType() {
-        return moveType;
-    }
-    public ChessGame getGame() {
-        return game;
-    }
-    public String getMessageText() {
-        return messageText;
-    }
-    public String getMoveString() {
-        return moveString;
     }
 
     //dummy methods
@@ -190,7 +159,7 @@ public class Move
         //after this method, the values encoded in this move will not be altered at all
         this.game.setAllScopes();
         this.game.setAllLegalMoves();
-        ChessPlayer nextPlayer=this.getPieceMoving().getPlayer().getOpponent();
+        ChessPlayer nextPlayer=this.pieceMoving.getPlayer().getOpponent();
         
         if(nextPlayer.isInCheck()) 
         {

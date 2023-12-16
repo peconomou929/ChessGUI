@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.frames;
 /*
 A sub class of jpanel. Each tab has a label and array of strings which holds its information.
 */
@@ -10,9 +10,8 @@ import javax.swing.JPanel;
 
 public class InfoTab extends JPanel 
 {
-
-    JLabel tabLabel;
-    String[] textAreaContent;
+    public JLabel tabLabel;
+    public String[] textAreaContent;
 
     public InfoTab(String text, String[] tabContents) 
     {

@@ -433,7 +433,7 @@ public class ChessGame extends JFrame implements ActionListener, MouseListener {
             Move lastMove = moveHistory.get(moveHistory.size()-1);
             
             //if the last move allows was pawn moving up two squares
-            if(lastMove.getPieceType()==ChessPiece.PAWN && Math.abs(lastMove.origin.getRank()-lastMove.destination.getRank())==2) 
+            if(lastMove.pieceType==ChessPiece.PAWN && Math.abs(lastMove.origin.getRank()-lastMove.destination.getRank())==2) 
                 enPassantObj.setUpEnPassant(lastMove);
         
             //add messages for the user
@@ -505,7 +505,7 @@ public class ChessGame extends JFrame implements ActionListener, MouseListener {
     public void addMoveToTable(Move move)
     {
         //depending on the player, add to different column
-        if(move.getPieceMoving().getPlayer().isWhite())
+        if(move.pieceMoving.getPlayer().isWhite())
             this.moveRecordsModel.addRow(new String[]{(this.moveRecordsModel.getRowCount()-1)+".", move.moveString, ""});
         else
             this.moveRecordsModel.setValueAt(move.moveString, this.moveRecordsModel.getRowCount()-1, 2);

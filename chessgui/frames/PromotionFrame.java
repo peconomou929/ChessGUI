@@ -1,7 +1,10 @@
-package chessgui;
+package chessgui.frames;
 /*
 Frame which appears when a promotion is possible to prompt the user to decide what piece he wants.
 */
+import chessgui.PromotionMove;
+import chessgui.ChessGame;
+import chessgui.ChessPiece;
 
 import java.awt.Color;
 import java.awt.Component;

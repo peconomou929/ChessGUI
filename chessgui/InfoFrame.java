@@ -3,6 +3,8 @@ package chessgui;
 A frame holding help information for the user.
 */
 
+import chessgui.frames.InfoTab;
+
 import java.awt.Color;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
