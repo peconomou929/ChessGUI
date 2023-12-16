@@ -7,7 +7,6 @@ This is useful for determining when a board position has been repeated.
 It is a rule in chess that when a board position has been repeated three times, a stalemate can be accepted.
 */
 
-
 public class BoardPosition
 {
     public final ChessGame game;        //the game to which it belongs

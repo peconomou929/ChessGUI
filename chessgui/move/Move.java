@@ -9,7 +9,6 @@ import chessgui.game.ChessSquare;
 import chessgui.game.ChessGame;
 import chessgui.game.ChessPlayer;
 
-
 public class Move 
 {
     //values that moveType can take

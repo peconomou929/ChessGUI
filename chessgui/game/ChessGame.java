@@ -6,6 +6,14 @@ This class therefore acts like the center of an octupus.
 From any of the numerous legs, I can return to the center and visit any other leg.
 */
 
+import chessgui.frame.InfoFrame;
+import chessgui.frame.YesNoFrame;
+import chessgui.move.EnPassant;
+import chessgui.move.Move;
+import chessgui.move.CastleMove;
+import chessgui.move.NormalMove;
+import chessgui.move.EnPassantMove;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridBagLayout;
@@ -24,13 +32,6 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.table.DefaultTableModel;
 
-import chessgui.frame.InfoFrame;
-import chessgui.frame.YesNoFrame;
-import chessgui.move.EnPassant;
-import chessgui.move.Move;
-import chessgui.move.CastleMove;
-import chessgui.move.NormalMove;
-import chessgui.move.EnPassantMove;
 
 
 public class ChessGame extends JFrame implements ActionListener, MouseListener {

@@ -1,4 +1,5 @@
 package chessgui.frame;
+
 import chessgui.game.ChessGame;
 
 import java.awt.*;

@@ -7,7 +7,6 @@ import chessgui.game.ChessPiece;
 import chessgui.game.ChessSquare;
 import chessgui.game.ChessPlayer;
 
-
 public class CastleMove extends Move
 {
     //attributes that are specific to a castle

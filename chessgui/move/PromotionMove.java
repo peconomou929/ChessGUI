@@ -6,8 +6,6 @@ A subclass of Move. Handles moves that are specifically promotions.
 import chessgui.game.ChessPiece;
 import chessgui.game.ChessSquare;
 import chessgui.game.ChessGame;
-
-
 import chessgui.frame.PromotionFrame;
 
 public class PromotionMove extends Move

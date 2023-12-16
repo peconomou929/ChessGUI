@@ -6,8 +6,8 @@ It is for whenever a message needs to be displayed during the game.
 The game is automatically paused when it pops up. 
 When the user presses return, the game continues playing
 */
+import chessgui.game.ChessGame;
 
-//imports
 import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -17,7 +17,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
 
-import chessgui.game.ChessGame;
 
 public class MessageFrame extends JFrame implements ActionListener{
    

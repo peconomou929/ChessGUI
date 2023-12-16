@@ -7,8 +7,6 @@ import chessgui.game.ChessGame;
 import chessgui.game.ChessSquare;
 import chessgui.game.ChessPiece;
 
-
-
 public class EnPassantMove extends Move
 {
     //one extra attribute, in addition to the inherited (since captured square is not the same as destination)

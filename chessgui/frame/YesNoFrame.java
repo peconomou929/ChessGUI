@@ -1,4 +1,5 @@
 package chessgui.frame;
+
 import chessgui.game.ChessGame;
 
 import java.awt.Color;
@@ -8,7 +9,6 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
-
 
 public class YesNoFrame extends JFrame implements ActionListener 
 {

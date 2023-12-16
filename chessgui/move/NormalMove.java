@@ -7,8 +7,6 @@ import chessgui.game.ChessGame;
 import chessgui.game.ChessPiece;
 import chessgui.game.ChessSquare;
 
-
-
 public class NormalMove extends Move
 {
     //no additional attributes
