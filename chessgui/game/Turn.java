@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 Handles all information relating to the turn and turn display.
 */

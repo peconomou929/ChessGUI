@@ -16,7 +16,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import chessgui.ChessGame;
+import chessgui.game.ChessGame;
 
 
 public class InfoFrame extends JFrame implements MouseListener

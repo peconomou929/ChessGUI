@@ -3,8 +3,8 @@ package chessgui.frame;
 Frame which appears when a promotion is possible to prompt the user to decide what piece he wants.
 */
 import chessgui.move.PromotionMove;
-import chessgui.ChessGame;
-import chessgui.ChessPiece;
+import chessgui.game.ChessGame;
+import chessgui.game.ChessPiece;
 
 import java.awt.Color;
 import java.awt.Component;

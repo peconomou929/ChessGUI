@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 A simplified version of chess piece that doesn't require as much data.
 These pieces are used in storing information about the board positions.

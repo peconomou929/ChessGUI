@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 Holds information about any selection that has been made. 
 A selection is whenever the user clicks on a piece, to potentially move it somewhere.

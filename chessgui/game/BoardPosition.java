@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 This class holds objects of type board position, which hold information about how a board is laid out.
 Which squares are occupied, and if so, by what piece. 

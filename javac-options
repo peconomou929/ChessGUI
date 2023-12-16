@@ -1,5 +1,8 @@
 -d build
 -cp build
+
+chessgui/Entry.java
+
 chessgui/frame/InfoFrame.java
 chessgui/frame/InfoTab.java
 chessgui/frame/PromotionFrame.java
@@ -15,15 +18,12 @@ chessgui/move/PromotionMove.java
 chessgui/move/EnPassant.java
 chessgui/move/Move.java
 
-
-chessgui/Entry.java
-
-chessgui/Boardposition.java
-chessgui/ChessGame.java
-chessgui/ChessPiece.java
-chessgui/ChessPlayer.java
-chessgui/ChessSquare.java
-chessgui/Selection.java
-chessgui/SimplePiece.java
-chessgui/Taken.java
-chessgui/Turn.java
+chessgui/game/ChessGame.java
+chessgui/game/Boardposition.java
+chessgui/game/ChessPiece.java
+chessgui/game/ChessPlayer.java
+chessgui/game/ChessSquare.java
+chessgui/game/Selection.java
+chessgui/game/SimplePiece.java
+chessgui/game/Taken.java
+chessgui/game/Turn.java

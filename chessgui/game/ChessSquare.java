@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 Abstraction of a chess square
 */

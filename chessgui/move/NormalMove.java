@@ -3,9 +3,9 @@ package chessgui.move;
 A move that is not a special move (castle, en passant, promotion)
 */
 
-import chessgui.ChessGame;
-import chessgui.ChessPiece;
-import chessgui.ChessSquare;
+import chessgui.game.ChessGame;
+import chessgui.game.ChessPiece;
+import chessgui.game.ChessSquare;
 
 
 

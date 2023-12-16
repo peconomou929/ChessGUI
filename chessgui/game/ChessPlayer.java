@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 An abstraction of each player.
 */

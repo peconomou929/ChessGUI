@@ -5,9 +5,9 @@ Holds information relating to the possibility of en passant move.
 
 import java.util.ArrayList;
 
-import chessgui.ChessGame;
-import chessgui.ChessPiece;
-import chessgui.ChessSquare;
+import chessgui.game.ChessGame;
+import chessgui.game.ChessPiece;
+import chessgui.game.ChessSquare;
 
 public class EnPassant
 {

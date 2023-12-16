@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 This is a template for chess pieces.
 */

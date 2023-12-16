@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 This class represents the game itself. It is the central class of the program, so to speak. 
 Most attributes of a chess game instance have references back to the chess game object itself.

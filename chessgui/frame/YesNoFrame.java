@@ -1,5 +1,5 @@
 package chessgui.frame;
-import chessgui.ChessGame;
+import chessgui.game.ChessGame;
 
 import java.awt.Color;
 import java.awt.GridLayout;

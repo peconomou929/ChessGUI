@@ -1,4 +1,4 @@
-package chessgui;
+package chessgui.game;
 /*
 Handles all information relating to capturing pieces. It is a JPanel and represents the taken board.
 */

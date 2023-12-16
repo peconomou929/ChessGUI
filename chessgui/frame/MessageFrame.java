@@ -17,7 +17,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
 
-import chessgui.ChessGame;
+import chessgui.game.ChessGame;
 
 public class MessageFrame extends JFrame implements ActionListener{
    

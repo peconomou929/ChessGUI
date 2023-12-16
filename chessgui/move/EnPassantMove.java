@@ -3,9 +3,9 @@ package chessgui.move;
 A subclass of Move. Handles all moves that are specifically en passant.
 */
 
-import chessgui.ChessGame;
-import chessgui.ChessSquare;
-import chessgui.ChessPiece;
+import chessgui.game.ChessGame;
+import chessgui.game.ChessSquare;
+import chessgui.game.ChessPiece;
 
 
 
