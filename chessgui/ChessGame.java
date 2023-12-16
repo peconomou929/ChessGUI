@@ -26,6 +26,12 @@ import javax.swing.table.DefaultTableModel;
 
 import chessgui.frame.InfoFrame;
 import chessgui.frame.YesNoFrame;
+import chessgui.move.EnPassant;
+import chessgui.move.Move;
+import chessgui.move.CastleMove;
+import chessgui.move.NormalMove;
+import chessgui.move.EnPassantMove;
+
 
 public class ChessGame extends JFrame implements ActionListener, MouseListener {
     

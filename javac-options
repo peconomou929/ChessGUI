@@ -8,19 +8,21 @@ chessgui/frame/WarningFrame.java
 chessgui/frame/WelcomeFrame.java
 chessgui/frame/YesNoFrame.java
 
+chessgui/move/CastleMove.java
+chessgui/move/EnPassantMove.java
+chessgui/move/NormalMove.java
+chessgui/move/PromotionMove.java
+chessgui/move/EnPassant.java
+chessgui/move/Move.java
+
+
 chessgui/Entry.java
 
 chessgui/Boardposition.java
-chessgui/CastleMove.java
 chessgui/ChessGame.java
 chessgui/ChessPiece.java
 chessgui/ChessPlayer.java
 chessgui/ChessSquare.java
-chessgui/EnPassant.java
-chessgui/EnPassantMove.java
-chessgui/Move.java
-chessgui/NormalMove.java
-chessgui/PromotionMove.java
 chessgui/Selection.java
 chessgui/SimplePiece.java
 chessgui/Taken.java

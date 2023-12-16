@@ -1,8 +1,14 @@
-package chessgui;
+package chessgui.move;
 /*
 An abstaction of a move. During every move in the game, an instance of this class 
 is constructed and added to an array which is the move records of the game.
 */
+
+import chessgui.ChessPiece;
+import chessgui.ChessSquare;
+import chessgui.ChessGame;
+import chessgui.ChessPlayer;
+
 
 public class Move 
 {

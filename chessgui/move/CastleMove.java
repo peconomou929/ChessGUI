@@ -1,7 +1,11 @@
-package chessgui;
+package chessgui.move;
 /*
 This class is a subclass of Move. It handles moves that are specifically castles.
 */
+
+import chessgui.ChessPiece;
+import chessgui.ChessSquare;
+import chessgui.ChessPlayer;
 
 
 public class CastleMove extends Move

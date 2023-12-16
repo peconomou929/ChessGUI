@@ -1,7 +1,12 @@
-package chessgui;
+package chessgui.move;
 /*
 A subclass of Move. Handles moves that are specifically promotions.
 */
+
+import chessgui.ChessPiece;
+import chessgui.ChessSquare;
+import chessgui.ChessGame;
+
 
 import chessgui.frame.PromotionFrame;
 

@@ -1,7 +1,13 @@
-package chessgui;
+package chessgui.move;
 /*
 A move that is not a special move (castle, en passant, promotion)
 */
+
+import chessgui.ChessGame;
+import chessgui.ChessPiece;
+import chessgui.ChessSquare;
+
+
 
 public class NormalMove extends Move
 {

@@ -1,9 +1,13 @@
-package chessgui;
+package chessgui.move;
 /*
 Holds information relating to the possibility of en passant move.
 */
 
 import java.util.ArrayList;
+
+import chessgui.ChessGame;
+import chessgui.ChessPiece;
+import chessgui.ChessSquare;
 
 public class EnPassant
 {

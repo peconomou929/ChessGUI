@@ -1,7 +1,13 @@
-package chessgui;
+package chessgui.move;
 /*
 A subclass of Move. Handles all moves that are specifically en passant.
 */
+
+import chessgui.ChessGame;
+import chessgui.ChessSquare;
+import chessgui.ChessPiece;
+
+
 
 public class EnPassantMove extends Move
 {
