@@ -1,4 +1,4 @@
-package chessgui.frames;
+package chessgui.frame;
 /*
 This class is currently not used at all in the program.
 I'm keeping it just in case I might want it.

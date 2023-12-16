@@ -3,7 +3,7 @@ package chessgui;
 A subclass of Move. Handles moves that are specifically promotions.
 */
 
-import chessgui.frames.PromotionFrame;
+import chessgui.frame.PromotionFrame;
 
 public class PromotionMove extends Move
 {

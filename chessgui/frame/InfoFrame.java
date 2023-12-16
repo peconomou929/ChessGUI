@@ -1,4 +1,4 @@
-package chessgui.frames;
+package chessgui.frame;
 /*
 A frame holding help information for the user.
 */

@@ -24,8 +24,8 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.table.DefaultTableModel;
 
-import chessgui.frames.InfoFrame;
-import chessgui.frames.YesNoFrame;
+import chessgui.frame.InfoFrame;
+import chessgui.frame.YesNoFrame;
 
 public class ChessGame extends JFrame implements ActionListener, MouseListener {
     

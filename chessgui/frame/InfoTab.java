@@ -1,4 +1,4 @@
-package chessgui.frames;
+package chessgui.frame;
 /*
 A sub class of jpanel. Each tab has a label and array of strings which holds its information.
 */

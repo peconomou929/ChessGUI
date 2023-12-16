@@ -1,4 +1,4 @@
-package chessgui.frames;
+package chessgui.frame;
 /*
 Frame which appears when a promotion is possible to prompt the user to decide what piece he wants.
 */

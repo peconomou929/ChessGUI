@@ -1,12 +1,12 @@
 -d build
 -cp build
-chessgui/frames/InfoFrame.java
-chessgui/frames/InfoTab.java
-chessgui/frames/PromotionFrame.java
-chessgui/frames/MessageFrame.java
-chessgui/frames/WarningFrame.java
-chessgui/frames/WelcomeFrame.java
-chessgui/frames/YesNoFrame.java
+chessgui/frame/InfoFrame.java
+chessgui/frame/InfoTab.java
+chessgui/frame/PromotionFrame.java
+chessgui/frame/MessageFrame.java
+chessgui/frame/WarningFrame.java
+chessgui/frame/WelcomeFrame.java
+chessgui/frame/YesNoFrame.java
 
 chessgui/Entry.java
 
